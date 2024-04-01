@@ -27,8 +27,13 @@ Four models—VGG19, ResNet50, DenseNet169, and Xception—were chosen after exp
 
 Inspecting the performance metrics, accuracy was less considered in this study because the data contains an imbalance class distribution. Therefore, taking the performance metrics of the ResNet50 architecture, the precision of 90% explains that when the model predicts a tumor presence, there is a 90% chance that the model is accurate while Recall/Sensitivity of 88% indicates that the model correctly predicted 88% of the actual tumor instances. In other words, the model has an 88% chance of discovering and predicting a tumor when one is present. The Figures below shows the ResNet50 model accuracy and model loss for the train (8342 samples in total) and validation test (1030 samples in total) for 25 epochs.
 
+![image](https://github.com/Anthonyomowumi/-Deep-Learning-Transfer-Learning-and-Explainable-Artificial-Intelligence-XAI-repo/assets/93340041/5143c5a0-851f-4de0-aac8-a2ce84a47e48)
 
-PUT FIGURE
+
+![image](https://github.com/Anthonyomowumi/-Deep-Learning-Transfer-Learning-and-Explainable-Artificial-Intelligence-XAI-repo/assets/93340041/ae7a7d0d-a4fb-48d5-a11e-83f93fdeccda)
+
+
+
 ## CONCLUSION
 In this study, based on the Pan-Cancer Atlas provided 33 most prevalent tumor types, a transfer learning methodology to classify genomic data (Gene Expression data) was employed. The experimental result in this study shows that the pre-trained model- VGG19, Xception, DenseNet169, and ResNet50 with a fine-tuning procedure like retraining of some part of the convolutional layer/block to effectively learn some patterns/forms in the gene expression/medical data and the common fully connected layer retraining method of the models is good in classifying gene expression data. ResNet50 performed better in this study achieving an accuracy of 92% on the 10% test set with a precision of 90%, recall of 88%, and F1 score of 89%. This performance on the unseen data (test data) shows that there is a good generalization performance of the model. The proposed methodology in this paper, transfer learning and base models’ architectures fine-tuning can work well to identify tumor types based on their gene expression and will work well with other tumor types not included in this study as well as other genomics data analysis. It is faster and less computationally expensive. Also, the use of IntegratedGradients on the images gives a clearer view of which part of the image is attributing the cause of the prediction of the various classes. It is shown in this work that a good generalization performance is achieved. The accuracy of the methodology used in this paper shows good performance of the pre-trained models on tumor type classification as well as the interpretability of the results given using Explainable AI.
 
