@@ -1,6 +1,5 @@
 ## CANCER GENE EXPRESSION CLASSIFICATION USING TRANSFER LEARNING AND EXPLAINABLE AI
 
-
 ## PROJECT SUMMARY
 This project made use of Transfer Learning Approach in the classification of 33 Cancer Types and Explainable AI to understand the interpretability of the models.
 
@@ -15,8 +14,10 @@ Gene expression analysis is a complex process due to relatively few samples avai
 Publicly available RNA-Seq Expression data (Secondary data) are used in this work [10]. The Cancer Genome Atlas (TCGA) has sequenced and handled a sizable quantity of tumor tissues. From these samples, TCGA further evaluated over 11,000 tumors from the 33 most common types of cancer, which enabled the creation of the Pan-Cancer Atlas. The National Cancer Institute (NCI) and the National Human Genome Research Institute jointly founded the TCGA project in 2006 with the goal of customizing and identifying the genetic mutations responsible for various cancer types using genome sequencing and bioinformatics 
 
 ### B. DATA DESCRIPTION
+33 tumor types of RNA-Seq gene expression data, normalized to level 3 were used in this study (Available at Pan Cancer Atlas) [12]. The information includes a cancer-type classification column, 20531 genes were reduced to 10363 by filtering out the genes using a threshold variance of 1.19 to filter out genes whose samples remain almost unchanged across the expression levels, and 10446 tumor samples (Rows). The details of the 33 tumor types, cohort names, and the number of samples.
+![image](https://github.com/Anthonyomowumi/-Deep-Learning-Transfer-Learning-and-Explainable-Artificial-Intelligence-XAI-repo/assets/93340041/64cd9478-5a57-4d03-867a-0e3ed3576598)
 
-
+### C. 
 
 
 
