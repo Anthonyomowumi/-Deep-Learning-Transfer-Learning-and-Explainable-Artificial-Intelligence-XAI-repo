@@ -17,7 +17,11 @@ Publicly available RNA-Seq Expression data (Secondary data) are used in this wor
 33 tumor types of RNA-Seq gene expression data, normalized to level 3 were used in this study (Available at Pan Cancer Atlas) [12]. The information includes a cancer-type classification column, 20531 genes were reduced to 10363 by filtering out the genes using a threshold variance of 1.19 to filter out genes whose samples remain almost unchanged across the expression levels, and 10446 tumor samples (Rows). The details of the 33 tumor types, cohort names, and the number of samples.
 ![image](https://github.com/Anthonyomowumi/-Deep-Learning-Transfer-Learning-and-Explainable-Artificial-Intelligence-XAI-repo/assets/93340041/64cd9478-5a57-4d03-867a-0e3ed3576598)
 
-### C. 
+### C. FEATURE SELECTION
+
+### D. LOG TRANSFORMATION AND IMAGE SYSNTHESIS
+
+### E. 
 
 
 
