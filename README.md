@@ -12,6 +12,11 @@ Furthermore, Explainable AI - IntegratedGradients was used to check the attribut
 Publicly available RNA-Seq Expression data (Secondary data) are used in this work. The Cancer Genome Atlas (TCGA) has sequenced and handled a sizable quantity of tumor tissues. From these samples, TCGA further evaluated over 11,000 tumors from the 33 most common types of cancer, which enabled the creation of the Pan-Cancer Atlas. The National Cancer Institute (NCI) and the National Human Genome Research Institute jointly founded the TCGA project in 2006 with the goal of customizing and identifying the genetic mutations responsible for various cancer types using genome sequencing and bioinformatics 
 ![image](https://github.com/Anthonyomowumi/-Deep-Learning-Transfer-Learning-and-Explainable-Artificial-Intelligence-XAI-repo/assets/93340041/c652088b-8bdf-46b5-a769-db27c58ad781)
 
+The figure belw shows the images after Feature Selection, Log transformation and Image synthesis of the 33 classes
+
+![image](https://github.com/Anthonyomowumi/-Deep-Learning-Transfer-Learning-and-Explainable-Artificial-Intelligence-XAI-repo/assets/93340041/3747b167-465a-49eb-8d93-59adb5068a9a)
+
+
 ## EXPERIMENTAL SETUP AND ANALYSIS
 Four models—VGG19, ResNet50, DenseNet169, and Xception—were chosen after experimenting with a variety of base CNN pre-trained model architectures, including EfficientNetB0, MobileNet, and others. VGG19 is a deep architecture CNN network of 19 layers, including 1 SoftMax layer, 5 max-pooling layers, 3 fully connected layers, and 16 convolutional layers.
 33 image class data were randomly split using the split-folder package in Python in the ratio of 80:10:10 (8342: 1030: 1074) for the pre-trained model training, validation, and testing of the model's performance. Also, the images were modified into 3-channel images through a channel duplication mechanism allowing the pre-trained model to process the images as RGB channel images. The grayscale intensity is essentially used as the value for all three color channels in the model, which handles all three channels equally by the models
