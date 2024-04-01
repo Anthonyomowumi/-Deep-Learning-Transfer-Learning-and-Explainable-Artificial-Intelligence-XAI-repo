@@ -9,7 +9,7 @@ Gene expression analysis is a complex process due to relatively few samples avai
 Furthermore, Explainable AI - IntegratedGradients was used to check the attribution of the image predicting a specific class label. This is to understand the part of the images leading to the prediction of the outcome.
 
 ## METHODOLOGY
-Publicly available RNA-Seq Expression data (Secondary data) are used in this work [10]. The Cancer Genome Atlas (TCGA) has sequenced and handled a sizable quantity of tumor tissues. From these samples, TCGA further evaluated over 11,000 tumors from the 33 most common types of cancer, which enabled the creation of the Pan-Cancer Atlas. The National Cancer Institute (NCI) and the National Human Genome Research Institute jointly founded the TCGA project in 2006 with the goal of customizing and identifying the genetic mutations responsible for various cancer types using genome sequencing and bioinformatics 
+Publicly available RNA-Seq Expression data (Secondary data) are used in this work. The Cancer Genome Atlas (TCGA) has sequenced and handled a sizable quantity of tumor tissues. From these samples, TCGA further evaluated over 11,000 tumors from the 33 most common types of cancer, which enabled the creation of the Pan-Cancer Atlas. The National Cancer Institute (NCI) and the National Human Genome Research Institute jointly founded the TCGA project in 2006 with the goal of customizing and identifying the genetic mutations responsible for various cancer types using genome sequencing and bioinformatics 
 
 ![image](https://github.com/Anthonyomowumi/-Deep-Learning-Transfer-Learning-and-Explainable-Artificial-Intelligence-XAI-repo/assets/93340041/a5bdb9af-5923-47e2-9a00-cc299eea8212)
 
@@ -18,6 +18,9 @@ Four models—VGG19, ResNet50, DenseNet169, and Xception—were chosen after exp
 33 image class data were randomly split using the split-folder package in Python in the ratio of 80:10:10 (8342: 1030: 1074) for the pre-trained model training, validation, and testing of the model's performance. Also, the images were modified into 3-channel images through a channel duplication mechanism allowing the pre-trained model to process the images as RGB channel images. The grayscale intensity is essentially used as the value for all three color channels in the model, which handles all three channels equally by the models
 
 ## EXPERIMENTAL RESULTS
+![image](https://github.com/Anthonyomowumi/-Deep-Learning-Transfer-Learning-and-Explainable-Artificial-Intelligence-XAI-repo/assets/93340041/f6526793-52e6-4dce-b0de-c79d37e55903)
+
+![image](https://github.com/Anthonyomowumi/-Deep-Learning-Transfer-Learning-and-Explainable-Artificial-Intelligence-XAI-repo/assets/93340041/bc612add-c6e4-4ee0-944c-286a8b2825e6)
 
 
 ## CONCLUSION
