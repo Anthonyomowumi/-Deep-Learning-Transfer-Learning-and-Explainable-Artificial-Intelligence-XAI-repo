@@ -10,11 +10,7 @@ Furthermore, Explainable AI - IntegratedGradients was used to check the attribut
 
 ## METHODOLOGY
 Publicly available RNA-Seq Expression data (Secondary data) are used in this work. The Cancer Genome Atlas (TCGA) has sequenced and handled a sizable quantity of tumor tissues. From these samples, TCGA further evaluated over 11,000 tumors from the 33 most common types of cancer, which enabled the creation of the Pan-Cancer Atlas. The National Cancer Institute (NCI) and the National Human Genome Research Institute jointly founded the TCGA project in 2006 with the goal of customizing and identifying the genetic mutations responsible for various cancer types using genome sequencing and bioinformatics 
-
-![image](https://github.com/Anthonyomowumi/-Deep-Learning-Transfer-Learning-and-Explainable-Artificial-Intelligence-XAI-repo/assets/93340041/a5bdb9af-5923-47e2-9a00-cc299eea8212
-
-
-
+![image](https://github.com/Anthonyomowumi/-Deep-Learning-Transfer-Learning-and-Explainable-Artificial-Intelligence-XAI-repo/assets/93340041/c652088b-8bdf-46b5-a769-db27c58ad781)
 
 ## EXPERIMENTAL SETUP AND ANALYSIS
 Four models—VGG19, ResNet50, DenseNet169, and Xception—were chosen after experimenting with a variety of base CNN pre-trained model architectures, including EfficientNetB0, MobileNet, and others. VGG19 is a deep architecture CNN network of 19 layers, including 1 SoftMax layer, 5 max-pooling layers, 3 fully connected layers, and 16 convolutional layers.
