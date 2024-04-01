@@ -11,10 +11,10 @@ Gene expression analysis is a complex process due to relatively few samples avai
 ## I. METHODOLOGY
 ![image](https://github.com/Anthonyomowumi/-Deep-Learning-Transfer-Learning-and-Explainable-Artificial-Intelligence-XAI-repo/assets/93340041/4f80db6f-6a1e-4c65-8d33-3c3204b57e0b)
 
-## A. DATASET ACQUISTION
+### A. DATASET ACQUISTION
 Publicly available RNA-Seq Expression data (Secondary data) are used in this work [10]. The Cancer Genome Atlas (TCGA) has sequenced and handled a sizable quantity of tumor tissues. From these samples, TCGA further evaluated over 11,000 tumors from the 33 most common types of cancer, which enabled the creation of the Pan-Cancer Atlas. The National Cancer Institute (NCI) and the National Human Genome Research Institute jointly founded the TCGA project in 2006 with the goal of customizing and identifying the genetic mutations responsible for various cancer types using genome sequencing and bioinformatics 
 
-## B. DATA DESCRIPTION
+### B. DATA DESCRIPTION
 
 
 
