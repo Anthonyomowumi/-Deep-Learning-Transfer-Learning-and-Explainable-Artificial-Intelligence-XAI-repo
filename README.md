@@ -35,6 +35,13 @@ Inspecting the performance metrics, accuracy was less considered in this study b
 
 
 
+An image from class 1 (BLCA) was used to inspect this. The image was preprocessed and transformed using the ResNet50 preprocess input library in the TensorFlow keras library. “Figure 6” shows the explainability of the model prediction and why it is predicting the class label “BLCA/class1” in the code. By overlaying the attribution values for each pixel over the original image on the heatmap with the black image baseline, the attributions are shown. The pixel's attribution value is obtained by adding the three-color channels' individual attribution values. Green pixels represent positive attributions, whereas red pixels represent negative attributions. The attributions are scaled in a range and show which genes or portions of the image are responsible for the observed results.
+
+
+![image](https://github.com/Anthonyomowumi/-Deep-Learning-Transfer-Learning-and-Explainable-Artificial-Intelligence-XAI-repo/assets/93340041/0df635a2-c45f-4996-a9ab-5a93d8f68e6d)
+
+
+
 ## CONCLUSION
 In this study, based on the Pan-Cancer Atlas provided 33 most prevalent tumor types, a transfer learning methodology to classify genomic data (Gene Expression data) was employed. The experimental result in this study shows that the pre-trained model- VGG19, Xception, DenseNet169, and ResNet50 with a fine-tuning procedure like retraining of some part of the convolutional layer/block to effectively learn some patterns/forms in the gene expression/medical data and the common fully connected layer retraining method of the models is good in classifying gene expression data. ResNet50 performed better in this study achieving an accuracy of 92% on the 10% test set with a precision of 90%, recall of 88%, and F1 score of 89%. This performance on the unseen data (test data) shows that there is a good generalization performance of the model. The proposed methodology in this paper, transfer learning and base models’ architectures fine-tuning can work well to identify tumor types based on their gene expression and will work well with other tumor types not included in this study as well as other genomics data analysis. It is faster and less computationally expensive. Also, the use of IntegratedGradients on the images gives a clearer view of which part of the image is attributing the cause of the prediction of the various classes. It is shown in this work that a good generalization performance is achieved. The accuracy of the methodology used in this paper shows good performance of the pre-trained models on tumor type classification as well as the interpretability of the results given using Explainable AI.
 
